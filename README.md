@@ -10,3 +10,8 @@ demo: http://www.bs15656984.icoc.bz/
   https://tuchong.com/events/
   http://huaban.com/
   http://699pic.com/
+
+
+####sadasd
+http://www.dowebok.com/192.html 图片插件
+https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
