@@ -8,3 +8,5 @@ demo: http://www.bs15656984.icoc.bz/
   
 ####网站demo
   https://tuchong.com/events/
+  http://huaban.com/
+  http://699pic.com/
