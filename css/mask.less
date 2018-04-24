@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Link {
+  display: block;
+  width: 70px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin: 20px auto;
+  text-decoration: none;
+  background-color: #3277DE;
+  color: white;
+  border: 1px solid seagreen;
+  border-radius: 6px;
+}
+/*弹出层遮罩*/
+.layer-mask {
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #666666;
+  opacity: 0.5;
+}
+/*弹出层窗体*/
+.layer-pop {
+  display: none;
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 940px;
+  height: 540px;
+  background: #fff;
+}
+.layer-pop #layer-content .TC-header {
+  width: 100%;
+  height: 40px;
+  background-color: #3277DE;
+}
+.layer-pop #layer-content .TC-header p {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 40px;
+  margin-left: 11px;
+}
+.layer-pop #layer-content .TC-body {
+  width: 900px;
+  height: 298px;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  border: 1px solid #E3E3E3;
+  display: flex;
+}
+.layer-pop #layer-content .TC-body .div1 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 .cont1 {
+  flex: 1;
+}
+.layer-pop #layer-content .TC-body .div1 .cont2 {
+  flex: 1;
+}
+.layer-pop #layer-content .TC-body .div1 span {
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 41px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 input {
+  display: inline-block;
+  height: 90%;
+  width: 286px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 select {
+  display: inline-block;
+  height: 90%;
+  width: 308px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 .cont1 span {
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 41px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 .cont1 select {
+  display: inline-block;
+  height: 90%;
+  width: 286px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 {
+  width: 100%;
+  height: 88px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 {
+  height: 100%;
+  position: relative;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 span {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 76px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 textarea {
+  position: absolute;
+  left: 140px;
+  top: 2px;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div5 {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  border-bottom: 0;
+}
+.layer-pop #layer-content .TC-body .div5 input {
+  display: inline-block;
+  height: 55px;
+  width: 120px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+}
+.layer-pop #layer-content .TC-body .div5 .i1 {
+  background-color: #3277DE;
+  position: absolute;
+  left: 25%;
+  bottom: -90px;
+}
+.layer-pop #layer-content .TC-body .div5 .i2 {
+  background-color: #ee4400;
+  position: absolute;
+  right: 25%;
+  bottom: -90px;
+}
+/*弹出层关闭按钮*/
+.layer-close {
+  float: right;
+  width: 24px;
+  height: 24px;
+  border: 3px solid #fff;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  background: #eee;
+  margin-right: -12px;
+  margin-top: -12px;
+}
+.layer-close:hover {
+  cursor: pointer;
+  background: #ccc;
+  color: #fff;
+}
