@@ -201,25 +201,142 @@
              <div class="swiper-container slot">
                  <div class="swiper-wrapper">
                      <div class="swiper-slide s1">
-                         <!--<img src="./images/logo1.jpg" alt="">-->
                      </div>
                      <div class="swiper-slide s2">
-                         <!--<img src="./images/logo2.jpg" alt="">-->
                      </div>
                  </div>
              </div>
          </section>
          <!--随机展示-->
          <section class="section-random">
-            <p>随机相册展示</p>
+            <p> <mark>随机</mark>相册展示</p>
              <div class="random-content">
+                 <ul class="content-list">
+                     <li class="list-one" style="height: 277px">
+                         <a class="box" href="#">
+                             <span class="content one-content">T</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">O</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">W</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">E</span>
+                         </a>
+                     <li class="list-tow" style="height: 261px">
+                         <a class="box" href="#">
+                             <span class="content one-content">L</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">C</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">O</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">M</span>
+                         </a>
+                     </li>
+
+                     <li class="list-three" style="height: 268px">
+                         <a class="box" href="#">
+                             <span class="content one-content">E</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">W</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">E</span>
+                         </a>
+                         <a class="box" href="#">
+                             <span class="content one-content">B</span>
+                         </a>
+                     </li>
+                 </ul>
              </div>
          </section>
          <!--相册专辑区-->
          <section class="section-Album">
-             <p>最新个人专辑专区</p>
+             <p> <mark>最新</mark>个人专辑专区</p>
             <div class="Album-content">
-
+                    <ul class="Al-content-list">
+                        <li class="Al-item">
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                            <a href="#">
+                                <div class="I-Father">
+                                    <i></i>>
+                                </div>
+                                <span>专辑于15天over</span>
+                                <span>挑战主题: 田园风光</span>
+                                <em>25200件作品</em>
+                            </a>
+                        </li>
+                    </ul>
             </div>
          </section>
          <footer class="footer-content">
@@ -228,7 +345,8 @@
             </p>
          </footer>
      </div>
-
+     <script src="./js/jquery-1.11.3.min.js"></script>
+     <script src="./js/direction_module.js"></script>
      <script src="./js/index.js"></script>
      <script src="./js/swiper-4.2.2.min.js"></script>
      <script src="./js/swiper.animate1.0.3.min.js"></script>
@@ -248,7 +366,45 @@
                      swiperAnimate(this); //每个slide切换结束时也运行当前slide动画
                  }
              }
-         })
+         });
+
+         var DIR_POS = {
+             left: {
+                 top: '0',
+                 left: '-100%'
+             },
+             right: {
+                 top: '0',
+                 left: '100%'
+             },
+             bottom: {
+                 top: '100%',
+                 left: '0'
+             },
+             top: {
+                 top: '-100%',
+                 left: '0'
+             }
+         };
+         $('.box').each(function () {
+             new MouseDirection(this, {
+                 enter: function ($element, dir) {
+                     //每次进入前先把.trans类移除掉，以免后面调整位置的时候也产生过渡效果
+                     var $content = $element.find('.content').removeClass('trans');
+                     //调整位置
+                     $content.css(DIR_POS[dir]);
+                     //reflow
+                     $content[0].offsetWidth;
+                     //启用过渡
+                     $content.addClass('trans');
+                     //滑入
+                     $content.css({left: '0', top: '0'});
+                 },
+                 leave: function ($element, dir) {
+                     $element.find('.content').css(DIR_POS[dir]);
+                 }
+             });
+         });
      </script>
 </body>
 </html>  
