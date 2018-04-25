@@ -13,4 +13,4 @@ demo: http://www.bs15656984.icoc.bz/
 
 ## 插件整理
   > http://www.dowebok.com/192.html 
-  图片插件https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
+  >> 图片插件https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
