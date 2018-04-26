@@ -16,4 +16,5 @@ demo: http://www.bs15656984.icoc.bz/
   >> 图片插件https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
   
 ### 首页展示
-    ![](./01.png '描述')
+   美丽花儿： 
+   ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
