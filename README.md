@@ -16,7 +16,7 @@ demo: http://www.bs15656984.icoc.bz/
   
 ### 首页展示
    美丽花儿： 
-   ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
+   ![美丽花儿](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "美丽花儿")
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
