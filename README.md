@@ -6,9 +6,8 @@ demo: http://www.bs15656984.icoc.bz/
  2. 项目效果photo爱好者可以注册站点的用户，用户可以在自己选择自己分类的相册集上传12张自己的个人相册展示
  3. ......其他功能业务待续
 ## 网站案例
-  demohttps://tuchong.com/events/
-  http://huaban.com/
-  http://699pic.com/
+ 1. http://huaban.com/
+ 2. http://699pic.com/
 
 ## 插件整理
  1. http://www.dowebok.com/192.html 
