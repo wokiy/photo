@@ -10,7 +10,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  2. http://699pic.com/
 
 ## 插件整理
- #### 插件使用
+ #### 图片处理的插件
   1. http://www.dowebok.com/192.html 
   2. https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
   
