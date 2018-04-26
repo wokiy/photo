@@ -1,5 +1,5 @@
 # photoWeb
-> one demo: http://www.bs15656984.icoc.bz/ 
+> My phtoto web online address: http://114.215.91.58/myBlog/photo/index.html welcome the small partner to Star this
 # 目标
  1. pc ＋ 移动端 + 后台element-ui搭建
  2. 项目效果photo爱好者可以注册站点的用户，用户可以在自己选择自己分类的相册集上传12张自己的个人相册展示
