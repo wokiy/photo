@@ -18,9 +18,9 @@ demo: http://www.bs15656984.icoc.bz/
    美丽花儿： 
    ![美丽花儿](http://ww2.sinaimg.cn/large/56d258bdjw1eugeubg8ujj21kw16odn6.jpg "美丽花儿")
 ## 技术选型
-  1. Vue vue+router vuex 
-  2. 构建工具webpack
-  3. 插件选取 photo....js swiper.js 
-  4. UI库 elementUi 
-  5. php yii2框架+vue2.5 前后台分离开发
+ 1. Vue vue+router vuex 
+ 2. 构建工具webpack
+ 3. 插件选取 photo....js swiper.js 
+ 4. UI库 elementUi 
+ 5. php yii2框架+vue2.5 前后台分离开发
    
