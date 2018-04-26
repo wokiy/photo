@@ -21,4 +21,7 @@
  3. 插件选取 photo....js swiper.js 
  4. UI库 elementUi 
  5. php yii2框架+vue2.5 前后台分离开发
-   
+ 6. 数据库mysql 
+ 7. 图片服务器-骑牛云存储
+ 
+## 代码文件目录待续......
