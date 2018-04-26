@@ -12,8 +12,8 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
 ## 插件整理
  #### 图片处理的插件
   1. http://www.dowebok.com/192.html 
-  2. https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
-  
+  2. https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
+## 网站图示
 ### 首页展示
    jaonlwyPTP首页（因为chrome截图插件的关系index page的header部分整体漂移到中部位置 = =！）： 
    ![首页](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "ptp")
