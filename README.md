@@ -1,5 +1,5 @@
 # photoWeb
-> I love photo
+> one demo
 demo: http://www.bs15656984.icoc.bz/ 
 # 目标
  1. pc ＋ 移动端 + 后台element-ui搭建
