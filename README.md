@@ -10,8 +10,9 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  2. http://699pic.com/
 
 ## 插件整理
- 1. http://www.dowebok.com/192.html 
- 2. 图片插件https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
+ ####插件使用
+  1. http://www.dowebok.com/192.html 
+  2. https://www.cnblogs.com/lhb25/p/a-pile-of-photos-scattered-on-surfac.html
   
 ### 首页展示
    jaonlwyPTP首页（因为chrome截图插件的关系index page的header部分整体漂移到中部位置 = =！）： 
