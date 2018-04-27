@@ -20,7 +20,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
    ![首页](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "ptp")
    
 #### 登录注册基础框的实现（原生js手写弹出层代码和css样式实现）
-   jaonlwyPTP登录注册（具体登录需要什么更具自己项目需要自己加= =！）： 
+   jaonlwyPTP登录注册（具体登录需要什么更具自己项目需要自己加 = =！github（引用png图片显示不全，最好用jpg格式的））： 
    ![这里写图片描述](http://114.215.91.58/Blog//static/userImages/20180427/1524821042034088102.jpg)
  
 ## 技术选型
