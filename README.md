@@ -18,6 +18,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
 #### 首页展示
    jaonlwyPTP首页（因为chrome截图插件的关系index page的header部分整体漂移到中部位置 = =！）： 
    ![首页](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "ptp")
+   
 #### 登录注册基础框的实现（原生js手写弹出层代码和css样式实现）
    jaonlwyPTP登录注册（具体登录需要什么更具自己项目需要自己加= =！）： 
    ![首页](http://114.215.91.58/Blog//static/userImages/20180427/1524819532517030701.png "ptp")
