@@ -22,8 +22,6 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
 #### 登录注册基础框的实现（原生js手写弹出层代码和css样式实现）
    jaonlwyPTP登录注册（具体登录需要什么更具自己项目需要自己加= =！）： 
    <img src="http://114.215.91.58/Blog//static/userImages/20180427/1524820328875088206.png"/>
-   
-   
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
@@ -34,4 +32,4 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  7. 图片服务器-骑牛云存储
  
 ## 代码文件目录待续......
- <img src="http://114.215.91.58/Blog//static/userImages/20180427/1524820328875088206.png"/>
+
