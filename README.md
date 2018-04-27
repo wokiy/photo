@@ -19,8 +19,8 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
    jaonlwyPTP首页（因为chrome截图插件的关系index page的header部分整体漂移到中部位置 = =！）： 
    ![首页](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "ptp")
 #### 登录注册基础框的实现（原生js手写弹出层代码和css样式实现）
-     jaonlwyPTP登录注册： 
-     ![登录、注册](http://114.215.91.58/Blog//static/userImages/20180427/1524819532517030701.png "ptp")
+     jaonlwyPTP登录注册 ： 
+     ![登录注册](http://114.215.91.58/Blog//static/userImages/20180427/1524819532517030701.png"ptp")
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
