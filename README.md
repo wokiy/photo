@@ -34,3 +34,4 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  7. 图片服务器-骑牛云存储
  
 ## 代码文件目录待续......
+ <img src="http://114.215.91.58/Blog//static/userImages/20180427/1524820328875088206.png"/>
