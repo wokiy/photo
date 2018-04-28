@@ -25,6 +25,8 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  ##### 登录弹出层布局实现
   由于截图软件的关系，界面开起来有点乱（主要看弹出层的布局样式就行，其他没什么问题 = =!）
   ![登录弹出层界面](http://114.215.91.58/Blog//static/userImages/20180428/1524907793884082881.jpg)
+ ##### 注册 弹出层布局实现
+  ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
