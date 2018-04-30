@@ -1,0 +1,989 @@
+@charset "UTF-8";
+/*通用样式*/
+*,
+::before,
+::after {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  /*点击高亮*/
+  -webkit-tap-highlight-color: transparent;
+  /*盒子模型*/
+  /*样式输入 tap*/
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /*文字一直*/
+  font-family: '微软雅黑', sans-serif;
+}
+/*input 标签 去掉默认样式*/
+input {
+  border: none;
+  -webkit-appearance: none;
+}
+/*a text-de*/
+a {
+  text-decoration: none;
+}
+/*list-style*/
+ol,
+ul {
+  list-style: none;
+}
+/*浮动设置*/
+.f_l {
+  float: left;
+}
+.f_r {
+  float: right;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#Link {
+  display: block;
+  width: 70px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin: 20px auto;
+  text-decoration: none;
+  background-color: #3277DE;
+  color: white;
+  border: 1px solid seagreen;
+  border-radius: 6px;
+}
+/*弹出层遮罩*/
+.layer-mask {
+  display: none;
+  z-index: 99999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #666666;
+  opacity: 0.5;
+}
+/*弹出层窗体*/
+.layer-pop {
+  display: none;
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 425px;
+  height: 535px;
+  background: #fff;
+}
+.layer-pop #layer-content .TC-header {
+  width: 100%;
+  height: 40px;
+  background-color: #3277DE;
+}
+.layer-pop #layer-content .TC-header p {
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 40px;
+  margin-left: 11px;
+}
+.layer-pop #layer-content .TC-body {
+  width: 425px;
+  height: 100%;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+  display: flex;
+}
+.layer-pop #layer-content .TC-body .div1 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 .cont1 {
+  flex: 1;
+}
+.layer-pop #layer-content .TC-body .div1 .cont2 {
+  flex: 1;
+}
+.layer-pop #layer-content .TC-body .div1 span {
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 41px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 input {
+  display: inline-block;
+  height: 90%;
+  width: 286px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div1 select {
+  display: inline-block;
+  height: 90%;
+  width: 308px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 {
+  width: 100%;
+  height: 41px;
+  display: flex;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 .cont1 span {
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 41px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div2 .cont1 select {
+  display: inline-block;
+  height: 90%;
+  width: 286px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 {
+  width: 100%;
+  height: 88px;
+  border-bottom: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 {
+  height: 100%;
+  position: relative;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 span {
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 100%;
+  width: 134px;
+  background-color: #F7F7F7;
+  text-align: center;
+  line-height: 76px;
+  border-left: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div4 .cont1 textarea {
+  position: absolute;
+  left: 140px;
+  top: 2px;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 20px;
+  line-height: 41px;
+  border: 1px solid #E3E3E3;
+}
+.layer-pop #layer-content .TC-body .div5 {
+  width: 100%;
+  height: 35px;
+  position: absolute;
+  border-bottom: 0;
+}
+.layer-pop #layer-content .TC-body .div5 input {
+  display: inline-block;
+  height: 55px;
+  width: 120px;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 55px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: none;
+}
+.layer-pop #layer-content .TC-body .div5 .i1 {
+  background-color: #3277DE;
+  position: absolute;
+  left: 25%;
+  bottom: -90px;
+}
+.layer-pop #layer-content .TC-body .div5 .i2 {
+  background-color: #ee4400;
+  position: absolute;
+  right: 25%;
+  bottom: -90px;
+}
+/*弹出层关闭按钮*/
+.layer-close {
+  float: right;
+  width: 33px;
+  height: 30px;
+  border: 3px solid #fff;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 50%;
+  background: #dedede;
+  margin-right: -33px;
+  margin-top: -12px;
+}
+.layer-close:hover {
+  cursor: pointer;
+  background: #ccc;
+  color: #fff;
+}
+html,
+body {
+  width: 100%;
+  height: auto;
+  background: #F2F2F2;
+}
+html #container,
+body #container {
+  width: 100%;
+}
+@media screen and (max-width: 1220px) {
+  html #container .header .nav-fixed .nav-right .nav-search,
+  body #container .header .nav-fixed .nav-right .nav-search {
+    display: none;
+  }
+}
+@media screen and (max-width: 995px) {
+  html #container .header .nav-fixed .nav-right,
+  body #container .header .nav-fixed .nav-right {
+    display: none;
+  }
+}
+html #container .header,
+body #container .header {
+  width: 100%;
+  height: 64px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  transition: all 1s;
+}
+html #container .header:hover,
+body #container .header:hover {
+  background-color: black;
+}
+html #container .header .nav-fixed,
+body #container .header .nav-fixed {
+  width: 100%;
+}
+html #container .header .nav-fixed .nav-logo,
+body #container .header .nav-fixed .nav-logo {
+  position: absolute;
+  left: 44px;
+  top: 19px;
+  width: 100px;
+  height: 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+html #container .header .nav-fixed .nav-logo a,
+body #container .header .nav-fixed .nav-logo a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+html #container .header .nav-fixed .nav-logo a img,
+body #container .header .nav-fixed .nav-logo a img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+html #container .header .nav-fixed .nav-list,
+body #container .header .nav-fixed .nav-list {
+  overflow: hidden;
+  list-style: none;
+  padding-left: 150px;
+}
+html #container .header .nav-fixed .nav-list li,
+body #container .header .nav-fixed .nav-list li {
+  float: left;
+  margin-left: 44px;
+}
+html #container .header .nav-fixed .nav-list li a,
+body #container .header .nav-fixed .nav-list li a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  line-height: 64px;
+}
+html #container .header .nav-fixed .nav-right,
+body #container .header .nav-fixed .nav-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 540px;
+  height: 100%;
+  line-height: 64px;
+}
+html #container .header .nav-fixed .nav-right .nav-search,
+body #container .header .nav-fixed .nav-right .nav-search {
+  float: left;
+}
+html #container .header .nav-fixed .nav-right .nav-search i,
+body #container .header .nav-fixed .nav-right .nav-search i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: -4px;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: center;
+}
+html #container .header .nav-fixed .nav-right .nav-search input,
+body #container .header .nav-fixed .nav-right .nav-search input {
+  display: inline-block;
+  background-color: black;
+  opacity: 0;
+  color: white;
+  width: 3px;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 9px;
+  transition: all 1s;
+}
+html #container .header .nav-fixed .nav-right .nav-search input:focus,
+body #container .header .nav-fixed .nav-right .nav-search input:focus {
+  width: 150px;
+  opacity: 1;
+}
+html #container .header .nav-fixed .nav-right .nav-search input::-webkit-input-placeholder,
+body #container .header .nav-fixed .nav-right .nav-search input::-webkit-input-placeholder {
+  color: white;
+}
+html #container .header .nav-fixed .nav-right a,
+body #container .header .nav-fixed .nav-right a {
+  float: right;
+  display: inline-block;
+  width: 100px;
+  height: 36px;
+  color: white;
+  text-align: center;
+  line-height: 36px;
+  background-color: #c99a05;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+html #container .header .nav-fixed .nav-right a:nth-of-type(1),
+body #container .header .nav-fixed .nav-right a:nth-of-type(1) {
+  margin-right: 100px;
+}
+html #container .header .nav-fixed .nav-right a:nth-of-type(2),
+body #container .header .nav-fixed .nav-right a:nth-of-type(2) {
+  margin-right: 51px;
+}
+html #container .section-lubo,
+body #container .section-lubo {
+  width: 100%;
+  height: 802px;
+}
+html #container .section-lubo .slot,
+body #container .section-lubo .slot {
+  width: 100%;
+  height: 100%;
+}
+html #container .section-lubo .slot .swiper-wrapper .s1,
+body #container .section-lubo .slot .swiper-wrapper .s1 {
+  background-image: url("../images/logo1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+html #container .section-lubo .slot .swiper-wrapper .s2,
+body #container .section-lubo .slot .swiper-wrapper .s2 {
+  background-image: url("../images/logo3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+html #container .section-random,
+body #container .section-random {
+  width: 100%;
+  height: 1000px;
+}
+html #container .section-random p,
+body #container .section-random p {
+  text-align: center;
+  margin: 72px auto;
+  font-size: 18px;
+}
+html #container .section-random p mark,
+body #container .section-random p mark {
+  font-size: 18px;
+}
+html #container .section-random .random-content,
+body #container .section-random .random-content {
+  width: 1200px;
+  height: 885px;
+  margin: 0 auto;
+}
+html #container .section-random .random-content .content-list,
+body #container .section-random .random-content .content-list {
+  list-style: none;
+}
+html #container .section-random .random-content .content-list li a,
+body #container .section-random .random-content .content-list li a {
+  margin: 0 0 10px 10px;
+}
+html #container .section-random .random-content .content-list .list-one,
+body #container .section-random .random-content .content-list .list-one {
+  display: inline-block;
+}
+html #container .section-random .random-content .content-list .list-one a,
+body #container .section-random .random-content .content-list .list-one a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+html #container .section-random .random-content .content-list .list-one a:nth-child(1),
+body #container .section-random .random-content .content-list .list-one a:nth-child(1) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-one a:nth-child(2),
+body #container .section-random .random-content .content-list .list-one a:nth-child(2) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-one a:nth-child(3),
+body #container .section-random .random-content .content-list .list-one a:nth-child(3) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-1.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-one a:nth-child(4),
+body #container .section-random .random-content .content-list .list-one a:nth-child(4) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-2.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-tow,
+body #container .section-random .random-content .content-list .list-tow {
+  display: inline-block;
+}
+html #container .section-random .random-content .content-list .list-tow a,
+body #container .section-random .random-content .content-list .list-tow a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+html #container .section-random .random-content .content-list .list-tow a:nth-child(1),
+body #container .section-random .random-content .content-list .list-tow a:nth-child(1) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-tow a:nth-child(2),
+body #container .section-random .random-content .content-list .list-tow a:nth-child(2) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-tow a:nth-child(3),
+body #container .section-random .random-content .content-list .list-tow a:nth-child(3) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-3.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-tow a:nth-child(4),
+body #container .section-random .random-content .content-list .list-tow a:nth-child(4) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-4.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-three,
+body #container .section-random .random-content .content-list .list-three {
+  display: inline-block;
+}
+html #container .section-random .random-content .content-list .list-three a,
+body #container .section-random .random-content .content-list .list-three a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+}
+html #container .section-random .random-content .content-list .list-three a:nth-child(1),
+body #container .section-random .random-content .content-list .list-three a:nth-child(1) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-three a:nth-child(2),
+body #container .section-random .random-content .content-list .list-three a:nth-child(2) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-6.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-three a:nth-child(3),
+body #container .section-random .random-content .content-list .list-three a:nth-child(3) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-5.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list .list-three a:nth-child(4),
+body #container .section-random .random-content .content-list .list-three a:nth-child(4) {
+  width: 280px;
+  height: 100%;
+  background-image: url("../images/r-6.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html #container .section-random .random-content .content-list a,
+body #container .section-random .random-content .content-list a {
+  overflow: hidden;
+}
+html #container .section-random .random-content .content-list a .one-content,
+body #container .section-random .random-content .content-list a .one-content {
+  display: inline-block;
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: -100%;
+  line-height: 265px;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+}
+html #container .section-random .random-content .content-list a .trans,
+body #container .section-random .random-content .content-list a .trans {
+  transition: all .2s;
+  backface-visibility: hidden;
+}
+html #container .section-Album,
+body #container .section-Album {
+  width: 100%;
+  height: 999px;
+}
+html #container .section-Album p,
+body #container .section-Album p {
+  text-align: center;
+  margin: 72px auto;
+  font-size: 18px;
+}
+html #container .section-Album p mark,
+body #container .section-Album p mark {
+  font-size: 18px;
+}
+html #container .section-Album .Album-content,
+body #container .section-Album .Album-content {
+  width: 1200px;
+  height: 570px;
+  margin: 0 auto;
+}
+html #container .section-Album .Album-content .Al-content-list,
+body #container .section-Album .Album-content .Al-content-list {
+  list-style: none;
+  width: 100%;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item,
+body #container .section-Album .Album-content .Al-content-list .Al-item {
+  width: 100%;
+  height: 240px;
+  margin-bottom: 20px;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a,
+body #container .section-Album .Album-content .Al-content-list .Al-item a {
+  width: 384px;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 0 0 30px 10px;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a span:nth-of-type(1),
+body #container .section-Album .Album-content .Al-content-list .Al-item a span:nth-of-type(1) {
+  display: inline-block;
+  width: 112px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(to right, #e3a04b, rgba(240, 210, 190, 0.1));
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a span:nth-of-type(2),
+body #container .section-Album .Album-content .Al-content-list .Al-item a span:nth-of-type(2) {
+  display: inline-block;
+  position: absolute;
+  bottom: 10px;
+  left: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e87878;
+  font-family: '微软雅黑', sans-serif;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a em,
+body #container .section-Album .Album-content .Al-content-list .Al-item a em {
+  display: inline-block;
+  font-style: normal;
+  font-size: 12px;
+  color: #808387;
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(1) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(2) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(3) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(4) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(5) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(6) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(7) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(8) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father i,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father i {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Al-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 1s;
+}
+html #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father i:hover,
+body #container .section-Album .Album-content .Al-content-list .Al-item a:nth-child(9) .I-Father i:hover {
+  transform: scale(1.1);
+}
+html #container .footer-content,
+body #container .footer-content {
+  width: 100%;
+  height: 202px;
+  background-color: #222222;
+  position: relative;
+}
+html #container .footer-content p,
+body #container .footer-content p {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+}
+html #container .section-mask #layer-pop #layer-content,
+body #container .section-mask #layer-pop #layer-content {
+  height: 100%;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body,
+body #container .section-mask #layer-pop #layer-content .TC-body {
+  /*窗体内容设置*/
+  height: 100%;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content {
+  width: 345px;
+  height: 383px;
+  margin: 0 auto;
+  position: relative;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content span,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content span {
+  display: inline-block;
+  font-size: 24px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content i,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content i {
+  display: inline-block;
+  font-style: normal;
+  position: absolute;
+  right: 0;
+  top: 14px;
+  color: black;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content i a,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content i a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content i a:hover,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content i a:hover {
+  color: coral;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class {
+  width: 100%;
+  height: 250px;
+  margin-top: 70px;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .form-flex,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .form-flex {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .form-flex div,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .form-flex div {
+  flex: 1;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .btn,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .btn {
+  width: 100%;
+  height: 50px;
+  background: #c99a05;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .github-img,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .github-img {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/login-logo.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 450px;
+  right: 44%;
+  cursor: pointer;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .other-login,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .form-class .other-login {
+  display: inline-block;
+  font-style: normal;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  top: 461px;
+  right: 75%;
+}
