@@ -5,6 +5,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  1. pc ＋ 移动端 + 后台element-ui搭建
  2. 项目效果photo爱好者可以注册站点的用户，用户可以在自己选择自己分类的相册集上传12张自己的个人相册展示
  3. ......其他功能业务待续
+ 4. 目前站点仅限PC端展示，响应的移动端太丑了，会设计对应的移动静态页面
 ## 网站案例
  1. http://huaban.com/
  2. http://699pic.com
