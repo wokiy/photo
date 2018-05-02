@@ -30,7 +30,8 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
   ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
 #### 后台模板
  ##### 类似界面
-  ![展示](https://github.com/bailicangdu/vue2-manage/raw/master/screenshots/manage_shop.png)
+  manager后台界面是github某仓库的页面，先借挂着
+  ![展示](https://github.com/bailicangdu/vue2-manage/raw/master/screenshots/manage_shop.png)
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
