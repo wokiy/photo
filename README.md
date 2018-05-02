@@ -5,6 +5,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  1. pc ＋ 移动端 + 后台element-ui搭建
  2. 项目效果photo爱好者可以注册站点的用户，用户可以在自己选择自己分类的相册集上传12张自己的个人相册展示
  3. ......其他功能业务待续
+ 4. 目前站点仅限PC端展示，响应的移动端太丑了，会设计对应的移动静态页面=>2018430
 ## 网站案例
  1. http://huaban.com/
  2. http://699pic.com
@@ -20,13 +21,15 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
    ![首页](http://114.215.91.58/Blog//static/userImages/20180426/1524713957268002903.jpg "ptp")
    
 #### 登录注册基础框的实现（原生js手写弹出层代码和css样式实现）
-   jaonlwyPTP登录注册（具体登录需要什么更具自己项目需要自己加 = =！github（引用png图片显示不全，最好用jpg格式的））： 
-   ![这里写图片描述](http://114.215.91.58/Blog//static/userImages/20180427/1524821042034088102.jpg)
  ##### 登录弹出层布局实现
   由于截图软件的关系，界面开起来有点乱（主要看弹出层的布局样式就行，其他没什么问题 = =!）
   ![登录弹出层界面](http://114.215.91.58/Blog//static/userImages/20180428/1524907793884082881.jpg)
  ##### 注册 弹出层布局实现
   ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
+#### 后台模板
+ ##### 类似界面
+  manager用户管理
+  ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525253598129069142.jpg)
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
