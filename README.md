@@ -28,7 +28,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
   ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
 #### 后台模板
  ##### index界面
-  manager用户管理(暂时线上地址: http://114.215.91.58/dist/)
+  manager用户管理(暂时线上地址:)<a href="http://114.215.91.58/dist/" target="_blank">线上地址</a>
   
   ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525253598129069142.jpg)
 ## 技术选型
