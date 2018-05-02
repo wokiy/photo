@@ -29,6 +29,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
 #### 后台模板
  ##### index界面
   manager用户管理(暂时线上地址: http://114.215.91.58/dist/)
+  
   ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525253598129069142.jpg)
 ## 技术选型
  1. Vue vue+router vuex 
