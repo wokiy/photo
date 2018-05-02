@@ -53,14 +53,19 @@
                  <!--窗体-->
                  <div class="TC-body">
                      <div class="body-content">
-                         <span>注册会员</span>
+                         <span>会员登录</span>
                          <i>已有账号, <a href="#">立即登录</a></i>
-                         <form action="#" class="form-class">
+                         <form action="#" class="form-class login-form">
                              <div class="form-flex">
-                                 <div style="background: #007aff"></div>
-                                 <div style="background: #222222"></div>
-                                 <div style="background: #e3a04b"></div>
-                                 <div style="background: #ee4400"></div>
+                                 <div style="background:#FFFFFF"></div>
+                                 <div class="user" style="background:#FFFFFF">
+                                     <input type="text" placeholder="手机号/邮箱/用户名">
+                                 </div>
+                                 <div class="password" style="background:#FFFFFF">
+                                     <input type="password" placeholder="请输入密码">
+                                     <a href="javascript:;">忘记密码</a>
+                                 </div>
+                                 <div style="background:#FFFFFF"></div>
                              </div>
                              <div class="btn">
                                  注册
@@ -79,12 +84,22 @@
                      <div class="body-content">
                          <span>注册会员</span>
                          <i>已有账号, <a href="#">立即登录</a></i>
-                         <form action="#" class="form-class">
+                         <form action="#" class="form-class register-form">
                              <div class="form-flex">
-                                 <div style="background: #007aff"></div>
-                                 <div style="background: #222222"></div>
-                                 <div style="background: #e3a04b"></div>
-                                 <div style="background: #ee4400"></div>
+                                 <div class="user" style="background:#FFFFFF">
+                                     <input type="text" placeholder="手机号码">
+                                 </div>
+                                 <div class="er_code" style="background:#FFFFFF">
+                                     <input type="number" placeholder="验证码">
+                                     <img src="./images/ercode.png"/>
+                                 </div>
+                                 <div class="phone" style="background:#FFFFFF">
+                                     <input type="text" placeholder="短信验证码">
+                                     <a href="javascript:;">获取短信验证码</a>
+                                 </div>
+                                 <div class="password" style="background:#FFFFFF">
+                                     <input type="password" placeholder="密码4-10位">
+                                 </div>
                              </div>
                              <div class="btn">
                                  注册
@@ -268,7 +283,6 @@
                  }
              }
          });
-
          var DIR_POS = {
              left: {
                  top: '0',

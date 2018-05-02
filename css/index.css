@@ -987,3 +987,114 @@ body #container .section-mask #layer-pop #layer-content .TC-body .body-content .
   top: 461px;
   right: 75%;
 }
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .user input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .user input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password {
+  position: relative;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password a,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .login-form .form-flex .password a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+  top: 131%;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .user input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .user input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .password,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .password {
+  position: relative;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .password input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .password input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone {
+  position: relative;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone a,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .phone a {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code {
+  position: relative;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code input,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code input {
+  width: 90%;
+  font-size: 16px;
+  padding-top: 25px;
+  padding-left: 4px;
+  border: 0;
+  /*去除input选重默认蓝色边框*/
+  outline: none;
+  height: 100%;
+  border-bottom: 1px solid darkgoldenrod;
+}
+html #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code img,
+body #container .section-mask #layer-pop #layer-content .TC-body .body-content .register-form .form-flex .er_code img {
+  position: absolute;
+  right: 22px;
+  top: 23%;
+}
