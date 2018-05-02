@@ -27,7 +27,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  ##### 注册 弹出层布局实现
   ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
 #### 后台模板
- ##### 类似界面
+ ##### index界面
   manager用户管理
   ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525253598129069142.jpg)
 ## 技术选型
