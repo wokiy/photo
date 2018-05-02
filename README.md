@@ -29,8 +29,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
 #### 后台模板
  ##### 类似界面
   manager用户管理
-  ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525232035344094290.jpg
-)
+  ![展示](http://114.215.91.58/Blog//static/userImages/20180502/1525253598129069142.jpg)
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
