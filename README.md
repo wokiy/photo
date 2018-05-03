@@ -30,7 +30,7 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  ##### index界面
   manager用户管理(暂时线上地址::<a href="http://114.215.91.58/dist/" target="_blank">线上地址</a>)
   
-  ![展示](http://114.215.91.58/Blog//static/userImages/20180503/1525338284267084499.jpg)
+  ![展示](http://114.215.91.58/Blog//static/userImages/20180503/1525343336783022983.jpg)
 ## 技术选型
  1. Vue vue+router vuex 
  2. 构建工具webpack
