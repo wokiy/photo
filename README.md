@@ -27,6 +27,9 @@ welcome the small partner to Star this.At last, this web Just learning, not doin
  ##### 注册 弹出层布局实现
   ![注册弹出层布局实现](http://114.215.91.58/Blog//static/userImages/20180428/1524910398275058438.jpg)
 #### 后台模板
+ ##### 后台系统登录入口界面实现
+  mannager的login页面设计实现
+  ![login页面](http://114.215.91.58/Blog//static/userImages/20180509/1525846586249077922.jpg)
  ##### index界面
   manager用户管理(暂时线上地址::<a href="http://114.215.91.58/dist/" target="_blank">线上地址</a>)
   
